@@ -48,7 +48,7 @@ Mobile.tap(findTestObject('Object Repository/Checkout/android.widget.Button - PR
 
 Mobile.tap(findTestObject('Object Repository/Checkout/android.widget.Button - YES'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Checkout/Tombol OK'))
+Mobile.tap(findTestObject('Object Repository/Checkout/Tombol OK'),5)
 
 //Mobile.closeApplication()
 
