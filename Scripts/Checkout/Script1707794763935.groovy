@@ -20,6 +20,16 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startApplication('C:\\Users\\rizky\\Documents\\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\\Solodroid_E-CommerceApp Demo_3.2.0.apk', 
     true)
 
+Mobile.tap(findTestObject('Object Repository/Add to Chart/android.widget.ImageView'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Add to Chart/android.widget.Button - ADD TO CART'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Add to Chart/android.widget.EditText'), '2', 0)
+
+Mobile.tap(findTestObject('Object Repository/Add to Chart/android.widget.Button - ADD'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Checkout/android.widget.ImageButton (1)'),0)
+
 Mobile.tap(findTestObject('Object Repository/Checkout/android.widget.ImageButton'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Checkout/android.widget.Button - CHECKOUT'), 0)
@@ -37,6 +47,8 @@ Mobile.hideKeyboard()
 Mobile.tap(findTestObject('Object Repository/Checkout/android.widget.Button - PROCESS CHECKOUT'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Checkout/android.widget.Button - YES'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Checkout/Tombol OK'))
 
 //Mobile.closeApplication()
 
