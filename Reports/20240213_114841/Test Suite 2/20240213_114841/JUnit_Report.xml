@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 2" time="174.649" tests="2" failures="0" errors="1">
+   <testsuite name="Test Suite 2" tests="2" failures="0" errors="1" time="174.649" skipped="0" timestamp="13-02-2024T11:48:48" hostname="rizky - Rizky" id="Test Suites/Test Suite 2">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rizky\\git\\katalon-taskmobile-RizkyAriSaktiaPasi\\Reports\\20240213_114841\\Test Suite 2\\20240213_114841"/>
+         <property name="logFiles" value="C:\\Users\\rizky\\git\\katalon-taskmobile-RizkyAriSaktiaPasi\\Reports\\20240213_114841\\Test Suite 2\\20240213_114841\\appium.log, C:\\Users\\rizky\\git\\katalon-taskmobile-RizkyAriSaktiaPasi\\Reports\\20240213_114841\\Test Suite 2\\20240213_114841\\appium_error.log, C:\\Users\\rizky\\git\\katalon-taskmobile-RizkyAriSaktiaPasi\\Reports\\20240213_114841\\Test Suite 2\\20240213_114841\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rizky - Rizky"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.0&quot;}}}"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.5.0"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="172.16.213.208"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/Add to Chart" time="36.096" classname="Test Cases/Add to Chart" status="PASSED">
+         <system-out><![CDATA[13-02-2024T11:48:48 - [TEST_CASE][PASSED] - Test Cases/Add to Chart: Test Cases/Add to Chart
+
+13-02-2024T11:48:48 - [TEST_STEP][PASSED] - startApplication("C:\Users\rizky\Documents\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\rizky\Documents\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:48:49 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+13-02-2024T11:48:54 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+13-02-2024T11:48:54 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\rizky\.appium
+
+13-02-2024T11:48:54 - [MESSAGE][INFO] - appium outlog: C:\Users\rizky\git\katalon-taskmobile-RizkyAriSaktiaPasi\Reports\20240213_114841\Test Suite 2\20240213_114841\appium.log
+
+13-02-2024T11:48:54 - [MESSAGE][INFO] - appium errlog: C:\Users\rizky\git\katalon-taskmobile-RizkyAriSaktiaPasi\Reports\20240213_114841\Test Suite 2\20240213_114841\appium_error.log
+
+13-02-2024T11:48:59 - [MESSAGE][INFO] - Appium server started on port 50.104
+
+13-02-2024T11:49:11 - [MESSAGE][PASSED] - Started app at: 'C:\Users\rizky\Documents\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:49:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Chart/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Add to Chart/android.widget.ImageView'
+
+13-02-2024T11:49:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:49:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Chart/android.widget.ImageView'
+
+13-02-2024T11:49:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Chart/android.widget.Button - ADD TO CART"), 0): Tapped on element 'Object Repository/Add to Chart/android.widget.Button - ADD TO CART'
+
+13-02-2024T11:49:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:49:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Chart/android.widget.Button - ADD TO CART'
+
+13-02-2024T11:49:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Add to Chart/android.widget.EditText"), "2", 0): Text '2' has been set to element 'Object Repository/Add to Chart/android.widget.EditText'
+
+13-02-2024T11:49:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:49:23 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/Add to Chart/android.widget.EditText'
+
+13-02-2024T11:49:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Chart/android.widget.Button - ADD"), 0): Tapped on element 'Object Repository/Add to Chart/android.widget.Button - ADD'
+
+13-02-2024T11:49:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:49:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Chart/android.widget.Button - ADD']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout" time="39.721" classname="Test Cases/Checkout" status="ERROR">
+         <error type="ERROR" message="Test Cases/Checkout FAILED.&#xa;Reason:&#xa;groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Checkout/Tombol OK']&#xa;Possible solutions: tap(groovy.lang.Closure), tap(com.kms.katalon.core.testobject.TestObject, int), tap(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), wait(), grep(), any()&#xa;	at Checkout.run(Checkout:51)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1707799721014.run(TempTestSuite1707799721014.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[13-02-2024T11:51:03 - [TEST_CASE][ERROR] - Test Cases/Checkout: Test Cases/Checkout FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Checkout/Tombol OK']
+Possible solutions: tap(groovy.lang.Closure), tap(com.kms.katalon.core.testobject.TestObject, int), tap(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), wait(), grep(), any()
+	at Checkout.run(Checkout:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707799721014.run(TempTestSuite1707799721014.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+13-02-2024T11:51:03 - [TEST_STEP][PASSED] - startApplication("C:\Users\rizky\Documents\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk", true): Started app at: 'C:\Users\rizky\Documents\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:51:11 - [MESSAGE][PASSED] - Started app at: 'C:\Users\rizky\Documents\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk'
+
+13-02-2024T11:51:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Chart/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Add to Chart/android.widget.ImageView'
+
+13-02-2024T11:51:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:51:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Chart/android.widget.ImageView'
+
+13-02-2024T11:51:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Chart/android.widget.Button - ADD TO CART"), 0): Tapped on element 'Object Repository/Add to Chart/android.widget.Button - ADD TO CART'
+
+13-02-2024T11:51:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:51:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Chart/android.widget.Button - ADD TO CART'
+
+13-02-2024T11:51:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Add to Chart/android.widget.EditText"), "2", 0): Text '2' has been set to element 'Object Repository/Add to Chart/android.widget.EditText'
+
+13-02-2024T11:51:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:51:22 - [MESSAGE][PASSED] - Text '2' has been set to element 'Object Repository/Add to Chart/android.widget.EditText'
+
+13-02-2024T11:51:22 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Add to Chart/android.widget.Button - ADD"), 0): Tapped on element 'Object Repository/Add to Chart/android.widget.Button - ADD'
+
+13-02-2024T11:51:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:51:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Add to Chart/android.widget.Button - ADD'
+
+13-02-2024T11:51:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/android.widget.ImageButton (1)"), 0): Tapped on element 'Object Repository/Checkout/android.widget.ImageButton (1)'
+
+13-02-2024T11:51:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:51:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/android.widget.ImageButton (1)'
+
+13-02-2024T11:51:24 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/android.widget.ImageButton"), 0): Tapped on element 'Object Repository/Checkout/android.widget.ImageButton'
+
+13-02-2024T11:51:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:51:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/android.widget.ImageButton'
+
+13-02-2024T11:51:26 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/android.widget.Button - CHECKOUT"), 0): Tapped on element 'Object Repository/Checkout/android.widget.Button - CHECKOUT'
+
+13-02-2024T11:51:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:51:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/android.widget.Button - CHECKOUT'
+
+13-02-2024T11:51:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/android.widget.EditText - Your Name"), "Fariz", 0): Text 'Fariz' has been set to element 'Object Repository/Checkout/android.widget.EditText - Your Name'
+
+13-02-2024T11:51:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:51:33 - [MESSAGE][PASSED] - Text 'Fariz' has been set to element 'Object Repository/Checkout/android.widget.EditText - Your Name'
+
+13-02-2024T11:51:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/android.widget.EditText - your.emailgmail.com"), "Fariz@gmail.com", 0): Text 'Fariz@gmail.com' has been set to element 'Object Repository/Checkout/android.widget.EditText - your.emailgmail.com'
+
+13-02-2024T11:51:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:51:36 - [MESSAGE][PASSED] - Text 'Fariz@gmail.com' has been set to element 'Object Repository/Checkout/android.widget.EditText - your.emailgmail.com'
+
+13-02-2024T11:51:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Checkout/android.widget.EditText - Your Address"), "Rukita sama kamu", 0): Text 'Rukita sama kamu' has been set to element 'Object Repository/Checkout/android.widget.EditText - Your Address'
+
+13-02-2024T11:51:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:51:38 - [MESSAGE][PASSED] - Text 'Rukita sama kamu' has been set to element 'Object Repository/Checkout/android.widget.EditText - Your Address'
+
+13-02-2024T11:51:38 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+13-02-2024T11:51:40 - [MESSAGE][PASSED] - Keyboard is hidden
+
+13-02-2024T11:51:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/android.widget.Button - PROCESS CHECKOUT"), 0): Tapped on element 'Object Repository/Checkout/android.widget.Button - PROCESS CHECKOUT'
+
+13-02-2024T11:51:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:51:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/android.widget.Button - PROCESS CHECKOUT'
+
+13-02-2024T11:51:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Checkout/android.widget.Button - YES"), 0): Tapped on element 'Object Repository/Checkout/android.widget.Button - YES'
+
+13-02-2024T11:51:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+13-02-2024T11:51:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Checkout/android.widget.Button - YES'
+
+13-02-2024T11:51:42 - [TEST_STEP][ERROR] - tap(findTestObject("Object Repository/Checkout/Tombol OK")): Test Cases/Checkout FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Checkout/Tombol OK']
+Possible solutions: tap(groovy.lang.Closure), tap(com.kms.katalon.core.testobject.TestObject, int), tap(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), wait(), grep(), any()
+	at Checkout.run(Checkout:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707799721014.run(TempTestSuite1707799721014.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+13-02-2024T11:51:42 - [MESSAGE][ERROR] - Test Cases/Checkout FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Checkout/Tombol OK']
+Possible solutions: tap(groovy.lang.Closure), tap(com.kms.katalon.core.testobject.TestObject, int), tap(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), wait(), grep(), any()
+	at Checkout.run(Checkout:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707799721014.run(TempTestSuite1707799721014.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[13-02-2024T11:51:03 - [TEST_CASE][ERROR] - Test Cases/Checkout: Test Cases/Checkout FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Checkout/Tombol OK']
+Possible solutions: tap(groovy.lang.Closure), tap(com.kms.katalon.core.testobject.TestObject, int), tap(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), wait(), grep(), any()
+	at Checkout.run(Checkout:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707799721014.run(TempTestSuite1707799721014.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-02-2024T11:48:48 - [TEST_SUITE][ERROR] - Test Suite 2: Test Cases/Checkout FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Checkout/Tombol OK']
+Possible solutions: tap(groovy.lang.Closure), tap(com.kms.katalon.core.testobject.TestObject, int), tap(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), wait(), grep(), any()
+	at Checkout.run(Checkout:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707799721014.run(TempTestSuite1707799721014.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[13-02-2024T11:48:48 - [TEST_SUITE][ERROR] - Test Suite 2: Test Cases/Checkout FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap() is applicable for argument types: (com.kms.katalon.core.testobject.MobileTestObject) values: [TestObject - 'Object Repository/Checkout/Tombol OK']
+Possible solutions: tap(groovy.lang.Closure), tap(com.kms.katalon.core.testobject.TestObject, int), tap(com.kms.katalon.core.testobject.TestObject, int, com.kms.katalon.core.model.FailureHandling), wait(), grep(), any()
+	at Checkout.run(Checkout:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1707799721014.run(TempTestSuite1707799721014.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 1,,,,13-02-2024 11:47:25,13-02-2024 11:48:24,"59,340s",PASSED
+,,,,,,,
+Test Cases/Edit Nama Profile,,,,13-02-2024 11:47:25,13-02-2024 11:48:04,"38,516s",PASSED
+"startApplication(""C:\Users\rizky\Documents\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 11:47:26,13-02-2024 11:47:51,"25,348s",PASSED
+"tap(findTestObject(""Object Repository/Edit Profile/Profile""), 0)",,,,13-02-2024 11:47:51,13-02-2024 11:47:56,"5,387s",PASSED
+"tap(findTestObject(""Object Repository/Edit Profile/Edit""), 0)",,,,13-02-2024 11:47:56,13-02-2024 11:47:57,"0,606s",PASSED
+"tap(findTestObject(""Object Repository/Edit Profile/Your name""), 0)",,,,13-02-2024 11:47:57,13-02-2024 11:48:01,"4,042s",PASSED
+"setText(findTestObject(""Object Repository/Edit Profile/Isi Nama""), ""Fariz"", 0)",,,,13-02-2024 11:48:01,13-02-2024 11:48:03,"1,657s",PASSED
+"tap(findTestObject(""Object Repository/Edit Profile/Tombol Ok""), 0)",,,,13-02-2024 11:48:03,13-02-2024 11:48:04,"0,997s",PASSED
+,,,,,,,
+Test Cases/Search,,,,13-02-2024 11:48:04,13-02-2024 11:48:24,"20,536s",PASSED
+"startApplication(""C:\Users\rizky\Documents\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 11:48:04,13-02-2024 11:48:15,"11,777s",PASSED
+"tap(findTestObject(""Object Repository/Search/android.widget.TextView""), 0)",,,,13-02-2024 11:48:15,13-02-2024 11:48:21,"5,107s",PASSED
+"setText(findTestObject(""Object Repository/Search/android.widget.AutoCompleteTextView - Search""), ""Samsung"", 0)",,,,13-02-2024 11:48:21,13-02-2024 11:48:22,"1,859s",PASSED
+hideKeyboard(),,,,13-02-2024 11:48:22,13-02-2024 11:48:24,"1,641s",PASSED

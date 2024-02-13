@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 2,,,,13-02-2024 11:48:48,13-02-2024 11:51:42,"2m - 54,649s",ERROR
+,,,,,,,
+Test Cases/Add to Chart,,,,13-02-2024 11:48:48,13-02-2024 11:49:24,"36,096s",PASSED
+"startApplication(""C:\Users\rizky\Documents\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 11:48:48,13-02-2024 11:49:11,"23,044s",PASSED
+"tap(findTestObject(""Object Repository/Add to Chart/android.widget.ImageView""), 0)",,,,13-02-2024 11:49:11,13-02-2024 11:49:17,"5,302s",PASSED
+"tap(findTestObject(""Object Repository/Add to Chart/android.widget.Button - ADD TO CART""), 0)",,,,13-02-2024 11:49:17,13-02-2024 11:49:20,"2,926s",PASSED
+"setText(findTestObject(""Object Repository/Add to Chart/android.widget.EditText""), ""2"", 0)",,,,13-02-2024 11:49:20,13-02-2024 11:49:23,"3,400s",PASSED
+"tap(findTestObject(""Object Repository/Add to Chart/android.widget.Button - ADD""), 0)",,,,13-02-2024 11:49:23,13-02-2024 11:49:24,"0,912s",PASSED
+,,,,,,,
+Test Cases/Checkout,,,,13-02-2024 11:51:03,13-02-2024 11:51:42,"39,721s",ERROR
+"startApplication(""C:\Users\rizky\Documents\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\Solodroid_E-CommerceApp Demo_3.2.0.apk"", true)",,,,13-02-2024 11:51:03,13-02-2024 11:51:11,"8,682s",PASSED
+"tap(findTestObject(""Object Repository/Add to Chart/android.widget.ImageView""), 0)",,,,13-02-2024 11:51:11,13-02-2024 11:51:17,"5,852s",PASSED
+"tap(findTestObject(""Object Repository/Add to Chart/android.widget.Button - ADD TO CART""), 0)",,,,13-02-2024 11:51:17,13-02-2024 11:51:19,"1,774s",PASSED
+"setText(findTestObject(""Object Repository/Add to Chart/android.widget.EditText""), ""2"", 0)",,,,13-02-2024 11:51:19,13-02-2024 11:51:22,"3,422s",PASSED
+"tap(findTestObject(""Object Repository/Add to Chart/android.widget.Button - ADD""), 0)",,,,13-02-2024 11:51:22,13-02-2024 11:51:23,"0,924s",PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.ImageButton (1)""), 0)",,,,13-02-2024 11:51:23,13-02-2024 11:51:24,"1,054s",PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.ImageButton""), 0)",,,,13-02-2024 11:51:24,13-02-2024 11:51:26,"1,527s",PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.Button - CHECKOUT""), 0)",,,,13-02-2024 11:51:26,13-02-2024 11:51:28,"1,957s",PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - Your Name""), ""Fariz"", 0)",,,,13-02-2024 11:51:28,13-02-2024 11:51:33,"4,839s",PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - your.emailgmail.com""), ""Fariz@gmail.com"", 0)",,,,13-02-2024 11:51:33,13-02-2024 11:51:36,"2,971s",PASSED
+"setText(findTestObject(""Object Repository/Checkout/android.widget.EditText - Your Address""), ""Rukita sama kamu"", 0)",,,,13-02-2024 11:51:36,13-02-2024 11:51:38,"2,914s",PASSED
+hideKeyboard(),,,,13-02-2024 11:51:38,13-02-2024 11:51:40,"1,504s",PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.Button - PROCESS CHECKOUT""), 0)",,,,13-02-2024 11:51:40,13-02-2024 11:51:41,"0,684s",PASSED
+"tap(findTestObject(""Object Repository/Checkout/android.widget.Button - YES""), 0)",,,,13-02-2024 11:51:41,13-02-2024 11:51:42,"1,502s",PASSED
+"tap(findTestObject(""Object Repository/Checkout/Tombol OK""))",,,,13-02-2024 11:51:42,13-02-2024 11:51:42,"0,070s",ERROR
